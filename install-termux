@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Ultroid - UserBot
+# Copyright (C) 2021-2022 TeamUltroid
+#
+# This file is a part of < https://github.com/rendisadia/mujib/ >
+# PLease read the GNU Affero General Public License in <https://github.com/rendisadia/mujibblob/main/LICENSE/>.
+
+if [ -d "resources" ]
+then
+    echo "Current directory Identified.."
+else
+    apt install git -y
+    git clone https://github.com/nahid-nil/Ultroidbot
+    cd Ultroid
+fi
+bash resources/startup/termux.sh

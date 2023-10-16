@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Ultroid - UserBot
+# Copyright (C) 2021-2022 TeamUltroid
+#
+# This file is a part of < https://github.com/rendisadia/mujib/ >
+# PLease read the GNU Affero General Public License in <https://github.com/rendisadia/mujibblob/main/LICENSE/>.
+
+bash resources/session/session.sh
